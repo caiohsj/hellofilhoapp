@@ -12,7 +12,7 @@ const Routes = () => {
         <Stack.Screen
           name="Home"
           component={Home}
-          options={{ title: 'Welcome' }}
+          options={{ title: 'My App Name' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
