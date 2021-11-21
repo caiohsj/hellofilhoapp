@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "hellofilho-react-native",
+    "slug": "hellofilho-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "hellofilho-react-native"
+}
