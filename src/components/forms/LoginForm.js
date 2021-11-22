@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
+import { translate } from "../../locales";
 
 const LoginForm = (props) => {
   const [email, setEmail] = useState(null);
@@ -17,7 +18,7 @@ const LoginForm = (props) => {
         onChangeText={setEmail}
         value={email}
       />
-      <Text>Senha</Text>
+      <Text>{translate('password')}</Text>
       <TextInput
         style={styles.input}
         onChangeText={setPassword}
