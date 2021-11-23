@@ -1,4 +1,7 @@
-const AuthReducer = (state = null, action) => {
+const AuthReducer = (state = {
+  schoolIds: null,
+  currentUser: null,
+}, action) => {
   switch (action.type) {
     case 'SET_CURRENT_USER':
       return action.payload;
